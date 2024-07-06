@@ -3,84 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'>
+     <link rel="stylesheet" href="styyles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
 <!--partie navbar-->
-<nav>
-<button>home</button>
-<button>about</button>
-<button>work</button>
-<button>resume</button>
-<button>contact</button><br>
+<nav id="nav">
+    <h1 id="h2"> NOUR BEN GUIRAT</h1>
+    <img src="pic.jpeg" alt="me" width="300" height="300">
+    <ul id='l3'>
+        <li >Home</li>
+        <li >About</li> 
+        <li >work</li>
+        <li >resume</li>
+        <li >contact</li>            
+    </ul>
+    <br>
+    
+ <br>
 </nav>
 <!--partie about-->
-<div id="about">
-<h2 id="title">about zohra</h2> <br>
-<p class="text"> As a passionate web developer, I am dedicated to crafting responsive and user-friendly websites. 
-    With a keen eye for detail and a commitment to coding excellence, I specialize in creating seamless digital experiences. 
-    My portfolio showcases a variety of projects, reflecting my expertise in modern web technologies and design principles</p><br>
-    <img src="https://static.vecteezy.com/ti/vecteur-libre/p1/8138412-dessin-anime-fille-en-marche-posture-gratuit-vectoriel.jpg " width="50" height="70">
+<div >
+<h2 id="h3">About My Portfolio</h2> <br>
+<h3 >skills</h3>
+<ul id="skills">
+    <li>HTML/CSS</li>
+    <li>JavaScript</li>
+    <li>Responsive Design</li>
+    <li>CSS Preprocessing</li>
+    <li>Front-End Frameworks</li>
+    <li>Back-End Development</li>
+</ul>
+
+    
 
 </div>
-<!--partie work-->
-<div>
-    <ul>
-        <li>experience</li>
-        <li>cerfication</li> 
-        <li>clients</li>      
-    </ul>
-</div>
-    <hr>
- <!--partie contact-->
- <form method="post" action="">
-    <label>username</label>
-    <input name="Text1" type="text" />
-    <label>password</label>
-    <input name="password" type="password">
-    <labek>Email</labek>
-    <input name="email" type="email">
-    <label>femme</label>
-    <input name="Radio1" type="radio" id="r1" />
-    <label>homme</label>
-    <input name="Radio1" type="radio" id="r2" />
+    
+    <!--partie contact-->
+<h3 >contact me </h3>
+
+ <form method="post" action="" class="container">
+    <label >name</label>
+    <input name="Text1" type="text" class="contact" /> <br>
+    <label>message</label>
+    <input name="message" type="text" class="contact" ><br>
+    <label>Email</label>
+    <input name="email" type="email" class="contact"  > 
+    <br>
+    <input name="Submit1" type="submit" value="submit" class="sub" id="sub"  />
+    <input name="Reset1" type="reset" value="reset"  class="res"   /> 
 </form>
- <!--partie footer-->
- <div>
-    <select  >
-        <option>like</option>
-        <option>dislike</option>
-    </select>
-    <a href="src="https://www.youtube.com/embed/T9aaI8rUbT4"> about</a>
+<hr>
+
+<!--partie footer-->
+<footer class="social-links" >
+    <p>&copy; welcome to my Website  </p>
+    <a href="https://www.facebook.com/nour.benguirat.98" target="_blank">
+    <i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/nour_benguirat/?hl=fr" target="_blank">
+        <i class="fab fa-instagram"></i>
     
-   
 
-
-
- </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    </footer>
 </body>
 </html>
